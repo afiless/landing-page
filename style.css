@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
-    padding-bottom: 175px;
+    padding-bottom: 140px;
     font-size: 24px;
     font-weight: 600;
 }
@@ -32,7 +32,7 @@ body {
 .title-content {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 175px;
+    padding-bottom: 140px;
     gap: 36px;
 }
 
@@ -71,4 +71,42 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 32px;
+}
+
+.information-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.four-images {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+}
+
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 165px;
+}
+
+.four-images img {
+    width: 165px;
+    height: 165px;
+    border-radius: 16px;
+}
+
+.four-images p {
+    text-align: center;
+    color: #666666;
 }
