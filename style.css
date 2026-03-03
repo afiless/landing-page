@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto;
+    margin: 0px;
 }
 
 .title-area {
@@ -117,7 +118,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding-top: 140px;
-    padding-bottom: 104px;
+    padding-bottom: 110px;
     padding-right: 360px;
     padding-left: 360px;
 }
@@ -136,4 +137,58 @@ h2 {
     align-self: flex-end;
     font-style: normal;
     padding-right: 75px;
+}
+
+.sign-up-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.blue-square {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 108px;
+    padding-right: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.blue-square p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+}
+
+.blue-square button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 600;
+    border-color: #f9faf8;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #1f2937;
+    color:#f9faf8;
 }
